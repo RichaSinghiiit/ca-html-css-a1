@@ -327,6 +327,51 @@ button {
     height: 100%;
 }
 /* trusted by ends */
+/* next level starts */
+#next_level {
+    margin-bottom: 50px;
+    background: #fbdc00;
+}
+#next_level_container{
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#text3 {
+    padding: 25px 0;
+}
+
+#text3 > h3 {
+    margin-bottom: 10px;
+}
+#button2 {
+    border: 1px solid #ee3425; min-width: 72px;
+    height: 36px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    cursor: pointer;
+    color: #fff !important;
+    background: #ee3425 !important;
+    border-radius: 4px;
+    outline: none;
+    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+    will-change: color, background-color, border-color;
+}
+#button2 > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* next level ends */
 #nav_bar {
     position: fixed;
     top: 0;
