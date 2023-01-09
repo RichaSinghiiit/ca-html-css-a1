@@ -43,6 +43,10 @@ h2 {
     font-size: 40px;
     line-height: 1.2;
 }
+h3 {
+    font-size: 28px;
+    line-height: 1.2;
+}
 
 p {
     font-size: 16px;
@@ -192,6 +196,111 @@ button {
     border-bottom-left-radius: 100% 150%;
 }
 /* white curve ends */
+/* products start */
+#products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    background: #fffef2;
+}
+#one_stop {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+#text2 {
+    flex: 1 1;
+}
+#text2 h2 {
+    margin-bottom: 10px;
+}
+#image2 {
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+}
+#prouct_image {
+    display: block;
+    width: 500px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 100%;
+}
+#main_products {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#main_products > h3 {
+    text-align: center;
+}
+
+#product_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fffef2;
+}
+
+
+.particular_product {
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+}
+.particular_product > h4 {
+    
+    width: 300px;
+    margin-right: 50px;
+    font-size: 24px;
+    color: #000;
+        
+}
+.product_icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 184px;
+    height: 160px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+.product_card > h4 {
+    
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-align: center;
+      
+}
+
+.product_card_text {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: 700;
+    color: #ee3425;
+    cursor: pointer;
+}
+/* product ends */
 #nav_bar {
     position: fixed;
     top: 0;
