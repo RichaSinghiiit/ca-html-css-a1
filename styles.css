@@ -39,6 +39,10 @@ h1 {
     font-size: 40px;
     line-height: 1.2;
 }
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+}
 
 p {
     font-size: 16px;
@@ -74,7 +78,7 @@ button {
     flex-basis: 0%;
     background-color: #fff;
 }
-
+/* header part starts */
 #header {
     position: relative;
     width: 100%;
@@ -138,6 +142,43 @@ button {
     margin-bottom: -56px;
 
 }
+/* header part ends */
+/* numbers served start */
+#numbers_served {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#industry {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: -40px;
+}
+.industries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.count{
+    margin-bottom: 5px;
+}
+.industries h2 {
+    color: #ee3425;
+}
+
+.industries h4 {
+    font-size: 16px;
+}
+
+/* number served ends */
 
 #nav_bar {
     position: fixed;
