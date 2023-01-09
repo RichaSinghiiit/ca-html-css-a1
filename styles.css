@@ -301,6 +301,32 @@ button {
     cursor: pointer;
 }
 /* product ends */
+/* trusted by starts */
+#trusted_by {
+    margin-bottom: 50px;
+}
+#trusted_by > h3 {
+    text-align: center;
+}
+#companies {
+    display: flex;
+    gap: 0.1rem;
+    overflow: hidden;
+    user-select: none;
+}
+#companies > div {
+    display: flex;
+    flex-shrink: 0;
+    gap: 0.1rem;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
+}
+#companies>div img {
+    width: 100px;
+    height: 100%;
+}
+/* trusted by ends */
 #nav_bar {
     position: fixed;
     top: 0;
