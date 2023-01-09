@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #434343;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Ubuntu", sans-serif;
+    color: #000;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #ee3425;
+    text-decoration: none;
+}
+
+button {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+#main_container {
+    --layout-topbar: 56px;
+    --layout-startbar: 200px;
+    min-width: fit-content;
+    min-height: 100vh;
+    padding-top: 56px;
+}
+
+#body_container {
+    display: flex;
+}
+
+#main_body {
+    flex: 1 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    background-color: #fff;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    padding-top: 57px;
+    margin-top: -57px;
+    background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+    background-color: #fbdc00;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+}
+
+#sub_header {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#text1 {
+
+    flex: 1 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+#text1 h1 {
+    margin-bottom: 20px;
+}
+
+#para1 {
+    margin-bottom: 20px;
+}
+
+#button1 {
+    color: #fff;
+    background-color: #ee3425;
+    border: 1px solid #ee3425;
+    min-width: 72px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    cursor: pointer;
+    padding: 8px 42px;
+    border-radius: 8px;
+    outline: none;
+    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+    will-change: color, background-color, border-color;
+}
+
+#image1 {
+    flex: 1 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin-bottom: -56px;
+
+}
+
+#nav_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding: 8px 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #000;
+    background: #fbdc00;
+}
+
+#site_map {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 0 50px 50px;
+    font-family: "PT Sans", sans-serif;
+    background: #fbdc00;
+}
+
+#ports {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    background-color: #ebbe00;
+}
+
+#footer {
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 30px;
+    background: #ebbe00;
+}
