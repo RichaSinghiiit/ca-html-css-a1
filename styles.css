@@ -179,7 +179,19 @@ button {
 }
 
 /* number served ends */
-
+/* white curve starts */
+#white_curve {
+    background: #fffef2;
+}
+#main_curve {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 18px;
+    border-bottom-right-radius: 100% 150%;
+    border-bottom-left-radius: 100% 150%;
+}
+/* white curve ends */
 #nav_bar {
     position: fixed;
     top: 0;
