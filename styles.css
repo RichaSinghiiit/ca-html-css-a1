@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -8,10 +9,6 @@ body {
     line-height: 1.5;
     color: #434343;
     -webkit-font-smoothing: antialiased;
-}
-
-div {
-    display: block;
 }
 
 h1,
@@ -77,9 +74,6 @@ button {
 
 #main_body {
     flex: 1 1;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0%;
     background-color: #fff;
 }
 /* header part starts */
@@ -759,6 +753,83 @@ button {
     will-change: color, background-color, border-color;
 }
 /* blogs end */
+/* subscribe starts*/
+#subscribe {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    margin-top: 20px;
+    background-color:#fbdc00;
+}
+
+#subscribe_image {
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+}
+#subscribe_image img {
+    width: 100%;
+    height: 100%;
+}
+#subscribe_text > h3 {
+    margin: 0;
+}
+#subscribe_text > span {
+    font-size: 16px;
+}
+#subscribe_form {
+    margin-top: 20px;
+}
+#subscribe_form > form{
+    display: flex;
+}
+#subscribe_form input{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+#subscribe_form button {
+            background-color: #ee3425;
+            color: #fff;
+            border: 1px solid #ee3425;
+            min-width: 72px;
+            padding: 4px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.2;
+            cursor: pointer;
+            width: 120px !important;
+            height: 40px !important;
+            text-align: center;
+            text-decoration: none;
+            background: #ee3425;
+            border-radius: 0;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            outline: none;
+            transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+            will-change: color, background-color, border-color;
+}
+#subscribe::after {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    content: " ";
+    background-color: #fff;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+/* subscribe ends */
 #nav_bar {
     position: fixed;
     top: 0;
