@@ -651,6 +651,114 @@ button {
     justify-content: center;
 }
 /* grow_faster ends */
+/* blogs start */
+#blogs {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#blogs_container {
+    display: flex;
+    flex-direction: column;
+}
+#blogs_container > h3 {
+    text-align: center;
+}
+#blogs_card_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.blogs_cards {
+    width: calc(calc(100% / 3) - 20px);
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-align: start;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+}
+.blogs_cards > a {
+    color: #000 !important;
+}
+.blogs_cards_image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+        
+}
+.blogs_cards_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+.blogs_cards_title {
+    margin-bottom: 5px;
+    font-size: 16px !important;
+    color: #ee3425;
+}
+.blogs_cards_heading {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #000 !important;
+}
+.blogs_cards_text > p{
+    max-height: calc(1.4rem * 3);
+    overflow: hidden;
+}
+.blogs_cards_read_more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogs_cards_read_more > span{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #ee3425;
+    cursor: pointer;
+}
+.blogs_cards_read_more > h4{
+    margin-bottom: 5px;
+        font-size: 14px !important;
+        color: #9a9a9a;
+}
+
+#view_all_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#view_all_button {
+    color: #fff;
+    background-color: #ee3425;
+    border: 1px solid #ee3425;
+    min-width: 72px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    cursor: pointer;
+    width: fit-content;
+    padding: 8px 42px !important;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border-radius: 4px;
+    outline: none;
+    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+    will-change: color, background-color, border-color;
+}
+/* blogs end */
 #nav_bar {
     position: fixed;
     top: 0;
