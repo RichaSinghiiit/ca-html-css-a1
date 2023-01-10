@@ -523,7 +523,55 @@ button {
     height: 100px;
 }
 
+
 /* industries_served ends */
+/* get_started starts */
+#get_started {
+    margin-bottom: 50px;
+}
+#get_started_container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 16px 100px !important;
+}
+#text4 {
+    flex: 1 1;
+}
+
+#text4>h2 {
+    margin-bottom: 10px;
+}
+
+#text4>a {
+    display: inline-block;
+    height: 40px;
+    padding: 8px 42px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ee3425;
+    border-radius: 8px;
+}
+
+#image4 {
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+}
+
+#image4>img {
+    display: block;
+    width: 280px;
+    height: 360px;
+    object-fit: contain;
+}
+/* get_started ends */
 #nav_bar {
     position: fixed;
     top: 0;
