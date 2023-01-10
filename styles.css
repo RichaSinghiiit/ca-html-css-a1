@@ -491,6 +491,39 @@ button {
     bottom: 116px;
 }
 /* working ends */
+/*industries_served starts  */
+#industries_served{
+    padding: 16px !important;
+    margin-bottom: 50px;
+    background: #fffef3;
+}
+#industries_served_container {
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#industries_served_container > h3 {
+    text-align: center;
+}
+#industries_icon_container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.industries_icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.industries_icon img {
+    width: 100px;
+    height: 100px;
+}
+
+/* industries_served ends */
 #nav_bar {
     position: fixed;
     top: 0;
