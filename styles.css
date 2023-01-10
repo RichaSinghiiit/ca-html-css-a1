@@ -894,12 +894,24 @@ button {
  }
 
 /* site_map ends */
+/* ports starts */
 #ports {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px 0;
     background-color: #ebbe00;
 }
+.ports_list {
+    display: flex;
+    flex-direction: column;
+}
+.ports_list > div {
+    line-height: 2rem;
+}
+.ports_list>div  a{
+   color:#000;
+}
+/* ports ends */
 
 #footer {
     z-index: 10000;
