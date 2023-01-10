@@ -65,6 +65,16 @@ button {
     font-family: "PT Sans", sans-serif;
     font-size: 14px !important;
     font-weight: 700 !important;
+    min-width: 72px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    cursor: pointer;
+    outline: none;
+    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+    will-change: color, background-color, border-color;
 }
 
 #main_container {
@@ -124,18 +134,8 @@ button {
     color: #fff;
     background-color: #ee3425;
     border: 1px solid #ee3425;
-    min-width: 72px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.2;
-    cursor: pointer;
     padding: 8px 42px;
     border-radius: 8px;
-    outline: none;
-    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
-    will-change: color, background-color, border-color;
 }
 
 #image1 {
@@ -338,20 +338,11 @@ button {
     margin-bottom: 10px;
 }
 #button2 {
-    border: 1px solid #ee3425; min-width: 72px;
-    height: 36px;
-    padding: 4px 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.2;
-    cursor: pointer;
+    border: 1px solid #ee3425;
     color: #fff !important;
     background: #ee3425 !important;
     border-radius: 4px;
-    outline: none;
-    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
-    will-change: color, background-color, border-color;
+    padding: 4px 16px;
 }
 #button2 > div {
     display: flex;
@@ -382,16 +373,6 @@ button {
     margin: 0 20px;
     color: #000 !important;
     border-radius: 20px;
-    min-width: 72px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.2;
-    cursor: pointer;
-    outline: none;
-    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
-    will-change: color, background-color, border-color;
 }
 #active {
     background-color: #fbdc00 !important;
@@ -606,20 +587,10 @@ button {
 #know_more_button {
     
     border: 1px solid #ee3425;
-    min-width: 72px;
-    height: 36px;
     padding: 4px 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.2;
-    cursor: pointer;
     color: #000 !important;
     background: #fbdc00 !important;
     border-radius: 4px;
-    outline: none;
-    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
-    will-change: color, background-color, border-color;
 }
 #know_more_button_text {
     display: flex;
@@ -714,22 +685,12 @@ button {
     color: #fff;
     background-color: #ee3425;
     border: 1px solid #ee3425;
-    min-width: 72px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.2;
-    cursor: pointer;
     width: fit-content;
     padding: 8px 42px !important;
     font-family: "PT Sans", sans-serif;
     font-size: 14px !important;
     font-weight: 700 !important;
     border-radius: 4px;
-    outline: none;
-    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
-    will-change: color, background-color, border-color;
 }
 /* blogs end */
 /* subscribe starts*/
@@ -780,13 +741,7 @@ button {
             background-color: #ee3425;
             color: #fff;
             border: 1px solid #ee3425;
-            min-width: 72px;
             padding: 4px 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            line-height: 1.2;
-            cursor: pointer;
             width: 120px !important;
             height: 40px !important;
             text-align: center;
@@ -795,9 +750,7 @@ button {
             border-radius: 0;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
-            outline: none;
-            transition: color .1s linear, background-color .1s linear, border-color .1s linear;
-            will-change: color, background-color, border-color;
+            
 }
 #subscribe::after {
     position: absolute;
@@ -881,20 +834,10 @@ button {
     color: #fff;
     background-color: #ee3425;
     border: 1px solid #ee3425;
-    min-width: 72px;
-    height: 36px;
     padding: 4px 16px;
     width: 100%;
     border-radius: 8px !important;
-    outline: none;
-    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
-    will-change: color, background-color, border-color;
-    align-items: center;
-    cursor: pointer;
-    display: flex;
     font-family: var(--font-family);
-    justify-content: center;
-    line-height: 1.2;
 }
 /* nav_bar ends */
 /* site_map starts */
