@@ -95,12 +95,14 @@ button {
     background-position: 50%;
     background-size: 100%;
 }
-
-#sub_header {
+.container1 {
     width: 1200px;
-    padding: 16px;
     margin-right: auto;
     margin-left: auto;
+}
+
+#sub_header {
+    padding: 16px;
     display: flex;
     align-items: center;
 }
@@ -108,9 +110,6 @@ button {
 #text1 {
 
     flex: 1 1;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0%;
 }
 
 #text1 h1 {
@@ -141,19 +140,13 @@ button {
 
 #image1 {
     flex: 1 1;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0%;
     margin-bottom: -56px;
 
 }
 /* header part ends */
 /* numbers served start */
 #numbers_served {
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
 }
 #industry {
     display: flex;
@@ -206,10 +199,7 @@ button {
     background: #fffef2;
 }
 #one_stop {
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -233,10 +223,7 @@ button {
     height: 100%;
 }
 #main_products {
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
 }
 #main_products > h3 {
     text-align: center;
@@ -281,6 +268,9 @@ button {
     border: 1.5px solid transparent;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+.product_card:hover {
+    border-color: #ee3425;
 }
 .product_card > h4 {
     
@@ -334,10 +324,7 @@ button {
     background: #fbdc00;
 }
 #next_level_container{
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
     position: relative;
     display: flex;
     align-items: center;
@@ -376,10 +363,7 @@ button {
 
 /* working starts */
 #working {
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
 }
 #working_container {
         display: flex;
@@ -499,10 +483,7 @@ button {
     background: #fffef3;
 }
 #industries_served_container {
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #industries_served_container > h3 {
@@ -531,9 +512,6 @@ button {
     margin-bottom: 50px;
 }
 #get_started_container {
-    width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
     display: flex;
     align-items: center;
     padding: 16px 100px !important;
@@ -609,10 +587,7 @@ button {
     background: #ee3425;
 }
 #know_more_container {
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
     position: relative;
     display: flex;
     align-items: center;
@@ -630,7 +605,7 @@ button {
 }
 #know_more_button {
     
-    border: 1px solid var(--color-primary);
+    border: 1px solid #ee3425;
     min-width: 72px;
     height: 36px;
     padding: 4px 16px;
@@ -654,10 +629,7 @@ button {
 /* grow_faster ends */
 /* blogs start */
 #blogs {
-    width: 1200px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #blogs_container {
@@ -879,6 +851,12 @@ button {
     margin-left: 20px;
     cursor: pointer;
 }
+.nav_list_item :hover{
+    color: #ee3425;
+}
+#nav_list > a :hover {
+    color: #ee3425;
+}
 #contact_us{
     width: 100%;
     margin-left: 40px;
@@ -965,6 +943,9 @@ button {
     color: #000;
     text-decoration: none;
  }
+ .list_item >span :hover {
+    text-decoration: underline;
+ }
 
 /* site_map ends */
 /* ports starts */
@@ -983,6 +964,11 @@ button {
 }
 .ports_list>div  a{
    color:#000;
+}
+.ports_list>div a:hover {
+    font-weight: 700;
+    color: #ee3425;
+    letter-spacing: -0.4px;
 }
 /* ports ends */
 /* footer starts */
